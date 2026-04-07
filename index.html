@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Nicholas Isikhueme · Creative Portfolio</title>
+    <!-- Google Fonts & simple CSS reset -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
+    <!-- Font Awesome 6 (free icons) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <div class="container nav-container">
+        <span class="logo">Nicholas Isikhueme.</span>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+<main>
+    <!-- Hero Section -->
+    <section id="home">
+        <div class="container hero">
+            <div class="hero-content">
+                <span class="hero-badge"><i class="fas fa-code"></i> product designer + web developer</span>
+                <h1>Crafting digital <span class="highlight">experiences</span><br> that matter</h1>
+                <p>Hi, I'm Nicholas Isikhueme — a creative developer & UI designer focused on building sleek, user-first web solutions. I turn ideas into interactive realities.</p>
+                <div class="hero-buttons">
+                    <a href="#work" class="btn btn-primary">View projects <i class="fas fa-arrow-right"></i></a>
+                    <a href="#contact" class="btn btn-outline">Let's talk</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <!-- modern abstract avatar / placeholder (illustrative) -->
+                <img src="img/nico.jpg" alt="Nicholas Isikhueme portrait placeholder">
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills / tools -->
+    <section class="skills-section">
+        <div class="container">
+            <div class="skills-grid">
+                <span class="skill-card">HTML 5</span>
+                <span class="skill-card">CSS 3</span>
+                <span class="skill-card">JavaScript</span>
+                <span class="skill-card">Bootstrap</span>
+                <span class="skill-card">TypeScript</span>
+                <span class="skill-card">Angular</span>
+                <span class="skill-card">Database Development</span>
+                <span class="skill-card">MySQL</span>
+                <span class="skill-card">PHP</span>
+                <span class="skill-card">AJAX</span>
+                <span class="skill-card">API</span>
+                <span class="skill-card">Symfony</span>
+                <span class="skill-card">Figma</span>
+                <span class="skill-card">Node.js</span>
+                <span class="skill-card">TypeScript</span>
+                <span class="skill-card">UI/UX Design</span>
+                <span class="skill-card">PHP Unit Testing and Jasmine</span>
+            </div>
+        </div>
+    </section>
+<!-- Projects Section -->
+<section id="work">
+      <div class="container">
+      <h2 class="section-title">Selected projects</h2>
+      <div class="projects-grid" id="projectsContainer">
+        <!-- dynamic projects via JS but also static fallback -->
+      </div>
+    </div>
+</section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container about-wrap">
+            <div class="about-text">
+                <h2 class="section-title about-title">Beyond the code</h2>
+                <p>I'm Nicholas — a multidisciplinary creative with 1+ years of experience helping startups and brands build meaningful digital identities. My approach blends clean aesthetics with high performance, always keeping the end-user at the center.</p>
+                <p>When I'm not designing or coding, you’ll find me reading or cooking. I still keep mentoring myself on more newer technologies and softwares, i like hiking and listning to music. I believe great design tells a story, and I'm here to help you tell yours.</p>
+                <div class="about-highlight">
+                    <i class="fas fa-quote-left" class="quote-icon"></i> 
+                    Design is not just what it looks like — it's how it works. I merge creativity with technical craft to ship products that feel alive.
+                </div>
+            </div>
+            <div class="about-icon-container">
+                <i class="fas fa-laptop-code" class="about-icon"></i>
+                <p class="about-icon-text">✨ several projects delivered</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact + Social -->
+    <section id="contact">
+        <div class="container contact-card">
+            <div class="contact-left">
+                <h3>Let’s work together</h3>
+                <p>Have a project in mind? I’m one message away.</p>
+                <div class="contact-links">
+                    <a href="#" aria-label="github" id="githubLink"><i class="fab fa-github"></i></a>
+                    <a href="#" aria-label="linkedin" id="linkedinLink"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" aria-label="twitter" id="twitterLink"><i class="fab fa-xmark"></i></a>
+                    
+                </div>
+            </div>
+            <div class="contact-right">
+                <a href="mailto:nicholas.isikhueme@outlook.com" 
+   target="_blank" 
+   rel="noopener" 
+   style="
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: #2A3E8F;
+      color: #fff;
+      padding: 10px 16px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 600;">
+  
+  <i class="fas fa-paper-plane"></i>
+  Email Me
+</a>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>© 2026 Nicholas Isikhueme — designed with <i class="fas fa-heart heart-icon"></i> for the creative community</p>
+</footer>
+<script src="index.js"></script>
+</body>
+</html>
