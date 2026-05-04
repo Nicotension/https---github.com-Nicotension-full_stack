@@ -4,7 +4,7 @@ const projectsData = [
         desc: "It is a mobile-friendly webpage",
         tags: ["HTML 5", "CSS", "Bootstrap"],
         image: "img/project_1.jpeg",
-        link: "https://code-review1.netlify.app/",
+        link: "https://1-nicholas.ijewerenicholas.workers.dev/",
         buttonText: "View Project"
     },
     {
@@ -12,7 +12,7 @@ const projectsData = [
         desc: "Website for shopping.",
         tags: ["HTML 5", "JavaScript", "CSS"],
         image: "img/project_2.jpeg",
-        link: "https://codereview2.netlify.app/",
+        link: "https://code-review2.pages.dev/",
         buttonText: "View Project"
     },
     {
@@ -20,7 +20,7 @@ const projectsData = [
         desc: "A website showcasing architectural designs and projects.",
         tags: ["HTML 5", "JavaScript", "CSS", "SCSS"],
         image: "img/code-review3_konradoffice.netlify.app.jpeg",
-        link: "https://konradoffice.netlify.app/",
+        link: "https://konrads-office.pages.dev/",
         buttonText: "View Architectural Website"
     },
     {
