@@ -20,7 +20,7 @@ const projectsData = [
         desc: "A website showcasing architectural designs and projects.",
         tags: ["HTML 5", "JavaScript", "CSS", "SCSS"],
         image: "img/code-review3_konradoffice.netlify.app.jpeg",
-        link: "https://konrads-office.pages.dev/",
+        link: "https://konrad-agm.pages.dev/",
         buttonText: "View Architectural Website"
     },
     {
